@@ -23,7 +23,7 @@ class RomanToInteger {
         if(currentvalue<prevvalue){
             total-=currentvalue;
         }else{
-            total+=currentvalue;
+            total=total+currentvalue;
         }
         prevvalue=currentvalue;
        }
